@@ -54,8 +54,7 @@ public class BookIssueDetailsService {
 
         bookIssue.getBookIssueDetails().add(bookIssueDetails);
 
-        return bookIssueDetailsRepositor.save(bookIssueDetails)
-    }
+        return bookIssueDetailsRepositor.save(bookIssueDetails);   }
 
     public void returnBook(Long bookIssueId) throws BookException {
         BookIssue bookIssue = bookIssueRepository.findById(bookIssueId)

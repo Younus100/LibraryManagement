@@ -14,13 +14,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
-=======
-	<groupId>com.project</groupId>
-	<artifactId>LibraryManagement</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>LibraryManagement</name>
-	<description>Project of LibraryManagement</description>
->>>>>>> 44e6da2cabc1a453ddc88c21f7aef168f2215783
+
 	<properties>
 		<java.version>17</java.version>
 	</properties>
