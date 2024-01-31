@@ -25,12 +25,9 @@ public class BookIssue {
     private User user;
 
     @OneToMany
-    @JoinColumn(name = "bookId")
-    private List<Book> book = new ArrayList<>();
+    @JoinColumn(name = "bookIssueDetailsIe")
+    private List<BookIssueDetails> bookIssueDetails = new ArrayList<>();
 
-    private LocalDateTime issueTime;
-
-    private LocalDate expiryTime;
 
 }
 
